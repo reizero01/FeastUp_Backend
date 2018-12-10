@@ -18,18 +18,18 @@ const Navigation = () =>
 const NavigationAuth = () =>
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-end">
-      <a class="p-2 text-muted"><Link to={routes.LANDING}>Landing</Link></a>
-      <a class="p-2 text-muted"><Link to={routes.HOME}>Home</Link></a>
-      <a class="p-2 text-muted"><Link to={routes.ACCOUNT}>Account</Link></a>
-      <a class="p-2 text-muted"><SignOutButton /></a>
+      <a class="p-2"><Link to={routes.LANDING}>Landing</Link></a>
+      <a class="p-2"><Link to={routes.HOME}>Home</Link></a>
+      <a class="p-2"><Link to={routes.ACCOUNT}>Account</Link></a>
+      <a class="p-2"><SignOutButton /></a>
     </nav>
   </div>
 
 const NavigationNonAuth = () =>
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-end">
-      <a class="p-2 text-muted"><Link to={routes.LANDING}>Landing</Link></a>
-      <a class="p-2 text-danger" style={{marginLeft: '1rem'}}><Link to={routes.SIGN_IN}>Sign In</Link></a>
+      <a class="p-2"><Link to={routes.LANDING}>Landing</Link></a>
+      <a class="p-2" style={{marginLeft: '1rem'}}><Link to={routes.SIGN_IN}>Sign In</Link></a>
       </nav>
   </div>
 
