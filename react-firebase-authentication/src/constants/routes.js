@@ -7,3 +7,7 @@ export const PASSWORD_FORGET = '/pw-forget';
 export const PLACE = '/place';
 export const STRIPE = '/stripe';
 export const PARTNER_SIGN_UP = '/partner-sign-up';
+export const HELP_MAIN_PAGE = '/help';
+export const ISSUE_WITH_ORDER = '/order-issue';
+export const ORDER_TAKING_TOO_LONG = '/order-taking-too-long';
+export const CANCEL_ORDER = '/cancel-order';

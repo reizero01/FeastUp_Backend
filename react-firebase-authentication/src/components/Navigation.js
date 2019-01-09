@@ -30,6 +30,7 @@ const NavigationNonAuth = () =>
     <nav class="nav d-flex justify-content-end">
       <a class="p-2"><Link to={routes.LANDING}>Landing</Link></a>
       <a class="p-2" style={{marginLeft: '1rem'}}><Link to={routes.SIGN_IN}>Sign In</Link></a>
+      <a class="p-2" style={{marginLeft: '1rem'}}><Link to={routes.HELP_MAIN_PAGE}>Help</Link></a>
       </nav>
   </div>
 

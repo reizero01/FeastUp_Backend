@@ -1,0 +1,60 @@
+[debug] [2019-01-08T18:47:08.007Z] ----------------------------------------------------------------------
+[debug] [2019-01-08T18:47:08.009Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-01-08T18:47:08.009Z] CLI Version:   6.2.2
+[debug] [2019-01-08T18:47:08.009Z] Platform:      darwin
+[debug] [2019-01-08T18:47:08.009Z] Node Version:  v10.10.0
+[debug] [2019-01-08T18:47:08.010Z] Time:          Tue Jan 08 2019 10:47:08 GMT-0800 (Pacific Standard Time)
+[debug] [2019-01-08T18:47:08.010Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-08T18:47:08.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-08T18:47:08.018Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/iwilliamlee/Desktop/feastup_websites
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-01-08T18:47:11.501Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-01-08T18:47:12.134Z] <<< HTTP RESPONSE 200
+[info] i  Using project freeload-9a0e3 (Vacrious)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-01-08T18:47:26.750Z] ----------------------------------------------------------------------
+[debug] [2019-01-08T18:47:26.752Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-01-08T18:47:26.753Z] CLI Version:   6.2.2
+[debug] [2019-01-08T18:47:26.753Z] Platform:      darwin
+[debug] [2019-01-08T18:47:26.753Z] Node Version:  v10.10.0
+[debug] [2019-01-08T18:47:26.754Z] Time:          Tue Jan 08 2019 10:47:26 GMT-0800 (Pacific Standard Time)
+[debug] [2019-01-08T18:47:26.754Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-08T18:47:26.762Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-08T18:47:26.762Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/iwilliamlee/Desktop/feastup_websites
+
