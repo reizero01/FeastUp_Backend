@@ -56,6 +56,7 @@ class SignUpForm extends Component {
 
   }
 
+
   render() {
     const {
       username,

@@ -7,6 +7,10 @@ import * as serviceWorker from './serviceWorker';
 //import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Provider } from "react-redux";
+import firebase from '@firebase/app';
+import '@firebase/firestore';
+import { FirestoreProvider } from 'react-firestore';
+
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -16,8 +20,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 serviceWorker.unregister();
 
 ReactDOM.render(
-    //<Provider store={store}>
+    <FirestoreProvider firebase={firebase}>
       <App />,
-    //</Provider>,
+    </FirestoreProvider>,
     document.getElementById('root')
   );

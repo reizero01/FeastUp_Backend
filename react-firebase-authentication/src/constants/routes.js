@@ -7,3 +7,4 @@ export const PASSWORD_FORGET = '/pw-forget';
 export const PLACE = '/place';
 export const STRIPE = '/stripe';
 export const PARTNER_SIGN_UP = '/partner-sign-up';
+export const MENU_EDIT = '/menu-edit';
