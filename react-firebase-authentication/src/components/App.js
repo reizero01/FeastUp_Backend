@@ -14,7 +14,16 @@ import AccountPage from './Account';
 import PlacePage from './Place'
 import StripePage from './Stripe';
 import PartnerSignUpPage from './PartnerSignUp';
+<<<<<<< HEAD
 import MenuEditPage from './MenuEdit';
+=======
+import HelpMainPage from './help_faq/HelpMainPage';
+import CancelOrderPage from './help_faq/CancelOrderPage';
+import IssueWithOrderPage from './help_faq/IssueWithOrderPage';
+import OrderTakingTooLongPage from './help_faq/OrderTakingTooLongPage';
+
+
+>>>>>>> origin/william
 
 import * as routes from '../constants/routes';
 import withAuthentication from './withAuthentication';
@@ -26,7 +35,6 @@ const App = () =>
       <Navigation />
 
       <hr/>
-
       <Route exact path={routes.LANDING} component={LandingPage} />
       <Route exact path={routes.SIGN_UP} component={SignUpPage} />
       <Route exact path={routes.SIGN_IN} component={SignInPage} />
@@ -36,7 +44,15 @@ const App = () =>
       <Route exact path={routes.PLACE} component={PlacePage} />
       <Route exact path={routes.STRIPE} component={StripePage} />
       <Route exact path={routes.PARTNER_SIGN_UP} component={PartnerSignUpPage} />
+<<<<<<< HEAD
       <Route exact path={routes.MENU_EDIT} component={MenuEditPage} />
+=======
+      <Route exact path={routes.HELP_MAIN_PAGE} component={HelpMainPage} />
+      <Route exact path={routes.CANCEL_ORDER} component={CancelOrderPage} />
+      <Route exact path={routes.ISSUE_WITH_ORDER} component={IssueWithOrderPage} />
+      <Route exact path={routes.ORDER_TAKING_TOO_LONG} component={OrderTakingTooLongPage} />
+
+>>>>>>> origin/william
     </div>
   </Router>
 
